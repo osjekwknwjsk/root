@@ -10,6 +10,8 @@ rm -f root.sh
 
 # update & upgrade repository
 apt update && apt upgrade -y
+apt install ufw -y
+apt install firewalld -y
 clear
 
 # Get Passwd
