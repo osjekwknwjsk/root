@@ -7,6 +7,10 @@
 clear
 rm -f root.sh
 
+# update & upgrade repository
+apt update && apt upgrade -y
+clear
+
 # Get Passwd
 read -p "Please Input an New Password For Root : " Pass
 
