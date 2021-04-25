@@ -10,8 +10,6 @@ rm -f root.sh
 
 # update & upgrade repository
 apt update && apt upgrade -y
-
-
 clear
 
 # Get Passwd
