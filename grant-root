@@ -23,6 +23,7 @@ IPANDA=$(wget -qO- ifconfig.co);
 
 # Successful
 clear
+echo "AUTHOR = WILL I AM"
 echo "Please Save This VPS Account Information"
 echo "============================================"
 echo "  IP ADDRESS = $IPANDA"
